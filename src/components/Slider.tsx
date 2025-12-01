@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import Image from 'next/image';
 
 interface Project {
   title: string;
@@ -403,10 +404,13 @@ export default function Slider() {
         <div className="slider-tech-stack">
           {projects[activeIndex].techStack.map((tech, index) => (
             <span key={index} className="slider-tech-card">
-              <img 
+              <Image 
                 src={getTechBadgeUrl(tech)} 
                 alt={tech}
+                width={120}
+                height={28}
                 style={{ height: '28px', width: 'auto' }}
+                unoptimized
               />
             </span>
           ))}

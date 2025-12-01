@@ -73,7 +73,7 @@ export default function Hero() {
       <div className="landing flex flex-col lg:flex-row items-center justify-between w-full max-w-7xl mx-auto min-h-[90vh] gap-8 lg:gap-0">
         <div className="intro flex flex-col items-center lg:items-start text-center lg:text-left order-2 lg:order-1 gap-6">
           <h3 className="text-white font-normal text-2xl sm:text-3xl lg:text-4xl leading-relaxed" style={{ marginLeft: '10vw' }}>
-            I'M <span className="text-[#fec86a] font-semibold text-3xl sm:text-4xl lg:text-5xl">Abdul-Qoyyum</span>
+            I&apos;M <span className="text-[#fec86a] font-semibold text-3xl sm:text-4xl lg:text-5xl">Abdul-Qoyyum</span>
             <span className="block mt-2">Junior Software Engineer &<br />Aspiring Robotics Developer</span>
           </h3>
           <Link 

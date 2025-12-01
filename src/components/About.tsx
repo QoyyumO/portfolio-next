@@ -69,7 +69,7 @@ export default function About() {
             <p className="end">
               I work confidently with Python, JavaScript, TypeScript, and Java to build reliable, efficient, and 
               adaptable software solutions.<br />My development approach is grounded in clean code, practical design, and 
-              continuous learning. I'm particularly drawn to projects that bridge software with real-world systems such as robotics, AI,
+              continuous learning. I&apos;m particularly drawn to projects that bridge software with real-world systems such as robotics, AI,
               and infrastructure automation. <br />I value integrity, discipline, and thoughtful engineering. My goal is to contribute to 
               the development of systems that not only solve problems, but do so intelligently, by adapting, learning, and 
               interacting seamlessly with users and the environment.
