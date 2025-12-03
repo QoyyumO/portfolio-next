@@ -172,6 +172,22 @@ export default function Slider() {
       .slider-container.swipe-active {
         transition: none;
       }
+      .slider-swipe-hint {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 16px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px 20px;
+        border-radius: 25px;
+        z-index: 10;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
       .slider-content {
         position: absolute;
         bottom: 300px;
@@ -275,6 +291,10 @@ export default function Slider() {
         background-color: rgba(255, 255, 255, 0.5);
       }
       @media (max-width: 768px) {
+        .slider-swipe-hint {
+          display: block;
+          top: 100px;
+        }
         .slider-content {
           left: 20px;
           bottom: 20px;
@@ -398,6 +418,7 @@ export default function Slider() {
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
     >
+      <div className="slider-swipe-hint">Swipe left or right</div>
       <div className="slider-content">
         <h2 className="slider-title">{projects[activeIndex].title}</h2>
         <p className="slider-description">{projects[activeIndex].description}</p>
