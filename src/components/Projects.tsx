@@ -16,14 +16,14 @@ const featuredProjects = [
     src: '/assets/asms.png', 
     alt: 'Attendance & Shift Management System', 
     label: 'ASMS', 
-    desc: 'A Java Swing application with MySQL backend that automates staff attendance tracking via biometric sign-in/out, shift scheduling, and supervisor-approved shift swaps, featuring role-based access and email notifications. Built with OpenCV for image capture and JavaMail for automated communications.', 
+    desc: 'A Java Swing application with MySQL backend that automates staff attendance tracking via biometric sign-in/out, shift scheduling, and supervisor-approved shift swaps, featuring role-based access and email notifications.', 
     link: 'https://github.com/QoyyumO/ASMS' 
   },
   { 
     src: '/assets/skillup-ai.png', 
     alt: 'SkillUp-AI', 
     label: 'SkillUp-AI', 
-    desc: 'An AI-powered skill development platform designed to help users enhance their skills through personalized recommendations and learning paths. Built with Next.js and TypeScript, this platform leverages advanced AI technologies, Firebase for backend services, and MUI for a responsive and clean user interface.', 
+    desc: 'An AI-powered skill development platform designed to help users enhance their skills through personalized recommendations and learning paths.', 
     link: 'https://skillup-ai.vercel.app' 
   }
 ];
